@@ -1,0 +1,54 @@
+/* You can add global styles to this file, and also import other style files */
+
+@import "tailwindcss";
+@layer components {
+  /* Section Hero */
+  .section-hero {
+    @apply w-full min-h-screen flex items-center justify-center bg-cover bg-center px-10 relative;
+  }
+
+  /* Titre principal */
+  .hero-title {
+    @apply text-6xl font-extrabold text-white drop-shadow-lg leading-tight;
+  }
+
+  /* Sous-titre */
+  .hero-subtitle {
+    @apply text-xl text-white opacity-90 mt-4;
+  }
+
+  /* Bouton principal */
+  .btn-primary {
+    @apply bg-[#563434] text-white font-semibold rounded-full px-6 py-3
+           hover:bg-[#2a1717] transition duration-300 mt-6 inline-block;
+  }
+
+  /* Style global pour toutes les sections */
+  .section {
+    @apply w-full py-24 px-10 bg-white;
+  }
+
+  /* Titre de section */
+  .section-title {
+    @apply text-4xl font-bold text-[#1b1616] text-center mb-12 relative;
+  }
+
+  /* Style du header (nav) réutilisable partout */
+  .header-nav {
+    @apply fixed top-0 left-0 w-full h-[90px] px-[60px] flex justify-between items-center
+           z-[1000] bg-transparent;
+  }
+
+  .nav-box {
+    @apply bg-white shadow-md rounded-[15px] h-[58px] flex items-center px-10;
+  }
+
+  .nav-links {
+    @apply flex gap-10 font-semibold text-[#1b1616];
+  }
+
+  .nav-icon {
+    @apply text-2xl ml-5 hover:text-[#694141] transition;
+  }
+}
+
