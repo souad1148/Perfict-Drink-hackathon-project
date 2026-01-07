@@ -1,6 +1,6 @@
 
 export default {
-  basePath: '/',
+  basePath: '/Perfect-Drink-hackathon-project',
   supportedLocales: {
   "en-US": ""
 },

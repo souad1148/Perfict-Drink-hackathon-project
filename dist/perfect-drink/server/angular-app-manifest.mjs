@@ -2,19 +2,19 @@
 export default {
   bootstrap: () => import('./main.server.mjs').then(m => m.default),
   inlineCriticalCss: true,
-  baseHref: '/',
+  baseHref: '/Perfect-Drink-hackathon-project/',
   locale: undefined,
   routes: [
   {
     "renderMode": 2,
-    "route": "/"
+    "route": "/Perfect-Drink-hackathon-project"
   }
 ],
   entryPointToBrowserMapping: undefined,
   assets: {
-    'index.csr.html': {size: 14104, hash: '5b3c542f235359d6df751dc2997e46d12ab1150c5fd1663642b9008979206012', text: () => import('./assets-chunks/index_csr_html.mjs').then(m => m.default)},
-    'index.server.html': {size: 8872, hash: 'a01fd77b889e0931d6c9a45c6c82f99badf7fa764ebccf189cd3412ee02c3076', text: () => import('./assets-chunks/index_server_html.mjs').then(m => m.default)},
-    'index.html': {size: 35973, hash: '4875daf779898bfff35471c327d9cae9d9ceac5b6bdd3e7886ede2a32f46fba6', text: () => import('./assets-chunks/index_html.mjs').then(m => m.default)},
-    'styles-VIJRCGWA.css': {size: 22853, hash: 'qgtK4blZ6JU', text: () => import('./assets-chunks/styles-VIJRCGWA_css.mjs').then(m => m.default)}
+    'index.csr.html': {size: 14493, hash: 'b9321ff9afddaed949765beab4e03d3e483b921b0d34ff1a5c8deb3b7b934802', text: () => import('./assets-chunks/index_csr_html.mjs').then(m => m.default)},
+    'index.server.html': {size: 8904, hash: '46c67c6d062c73a301a6234bb8f498164e602d6b7cb3a45c287409889c6a2801', text: () => import('./assets-chunks/index_server_html.mjs').then(m => m.default)},
+    'index.html': {size: 36382, hash: '36e7826d082e470fa8c905308290fdab2e7b84d4136c98d72675af4af09292fa', text: () => import('./assets-chunks/index_html.mjs').then(m => m.default)},
+    'styles-7NWEUDIG.css': {size: 24226, hash: 'akk+qZIrnlo', text: () => import('./assets-chunks/styles-7NWEUDIG_css.mjs').then(m => m.default)}
   },
 };
